@@ -1,4 +1,4 @@
-package br.com.christian.firstapi;
+package br.com.alura.firstapi;
 
 import java.util.List;
 

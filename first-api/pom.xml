@@ -8,7 +8,7 @@
 		<version>3.0.0-M4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.christian</groupId>
+	<groupId>br.com.alura</groupId>
 	<artifactId>first-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>first-api</name>
@@ -17,7 +17,10 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -28,12 +31,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
-		<dependency>
-      		<groupId>org.springframework.boot</groupId>
-      		<artifactId>spring-boot-starter-data-mongodb</artifactId>
-    	</dependency>
-
 	</dependencies>
 
 	<build>
